@@ -1,2 +1,2 @@
 # apiwrapper
-A more convenient data format or a simpler interface can be provided with the aid of a web API wrapper, which helps with interaction with a specific web API. With the OpenWeatherMap API, a wrapper could be written that simplifies weather data or manages authentication and rate limiting automatically.
+The OpenWeatherMapWrapper class wraps the OpenWeatherMap API and provides a get_current_weather method that returns the current weather for a given city. The method takes care of constructing the appropriate API endpoint and parameters, and parses the response into a more user-friendly dictionary format. You need to provide your own OpenWeatherMap API key to use this wrapper.
